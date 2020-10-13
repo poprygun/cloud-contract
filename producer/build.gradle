@@ -38,8 +38,8 @@ ext {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
-	implementation group: 'org.jeasy', name: 'easy-random-core', version: '4.2.0'
 	annotationProcessor 'org.projectlombok:lombok'
+	implementation group: 'org.jeasy', name: 'easy-random-core', version: '4.2.0'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
